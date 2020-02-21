@@ -10,7 +10,7 @@
 %tempo final de processamento por todas as tarefas do processo de
 %integração.
 
-%Recebe entrada de dados
+% %Recebe entrada de dados
 % prompt = {'Enter the number of thread pool configuration solutions to test:  ', ...
 %           'Enter the total of threads in all pools:   ', ...
 %           'Enter the total number of messages to process:   ', ...
@@ -23,8 +23,8 @@
 % numsolutions = str2num(answer{1});
 % totthreads = str2num(answer{2});
 % totmessages = str2num(answer{3});
-% timeprocessing = str2num(answer{4});
-% 
+timeprocessing = str2num(answer{4});
+% % 
 numsolutions = 10;
 totthreads = 100;
 %totmessages = 1000;

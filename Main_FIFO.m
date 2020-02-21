@@ -25,8 +25,9 @@
 
 %numsolutions = 10;
 totthreads = 100;
-%totmessages = 10000000;
-timeprocessing = [2.005; 1.003; 1.553; 1.005; 4.005; 1.004; 1.005; 1.553; 2.005; 1.005; 1.003; 1.005; 1.005; 1.003; 1.005; 1.005];
+totmessages = 10000000;
+timeprocessing = [2.005; 1.003; 1.553; 1.005; 4.005; 1.004; 1.005; 1.553; 2.005;
+    1.005; 1.003; 1.005; 1.005; 1.003; 1.005; 1.005];
 %  timeprocessing = [1;2;3];
 
 numpool = size(timeprocessing,1);%number of tasks
